@@ -29,7 +29,6 @@
 		975F362B1C9EB5B400BF520C /* STBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F36291C9EB5B400BF520C /* STBookCell.m */; };
 		975F362C1C9EB5B400BF520C /* STBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 975F362A1C9EB5B400BF520C /* STBookCell.xib */; };
 		975F363A1C9ECACD00BF520C /* STBookShelfLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F36391C9ECACD00BF520C /* STBookShelfLayout.m */; };
-		9769EA6E1C7C4638007B7BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9769EA6C1C7C4638007B7BBC /* Main.storyboard */; };
 		9769EA731C7C4638007B7BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9769EA711C7C4638007B7BBC /* LaunchScreen.storyboard */; };
 		9769EAAA1C7C5D28007B7BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9769EAA91C7C5D28007B7BBC /* Assets.xcassets */; };
 		9769EB861C7C6D0C007B7BBC /* STBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9769EB5D1C7C6D0C007B7BBC /* STBooksViewController.m */; };
@@ -124,7 +123,6 @@
 		975F36381C9ECACD00BF520C /* STBookShelfLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBookShelfLayout.h; sourceTree = "<group>"; };
 		975F36391C9ECACD00BF520C /* STBookShelfLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBookShelfLayout.m; sourceTree = "<group>"; };
 		9769EA601C7C4638007B7BBC /* studyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9769EA6D1C7C4638007B7BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9769EA721C7C4638007B7BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9769EA741C7C4638007B7BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9769EAA91C7C5D28007B7BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -284,7 +282,6 @@
 			isa = PBXGroup;
 			children = (
 				9769EB591C7C6D0C007B7BBC /* Classes */,
-				9769EA6C1C7C4638007B7BBC /* Main.storyboard */,
 				9769EA711C7C4638007B7BBC /* LaunchScreen.storyboard */,
 				9769EAA91C7C5D28007B7BBC /* Assets.xcassets */,
 				9769EA631C7C4638007B7BBC /* Supporting Files */,
@@ -862,7 +859,6 @@
 				9769EAAA1C7C5D28007B7BBC /* Assets.xcassets in Resources */,
 				97436B5C1C92E1E100C9FA70 /* STUserHeaderView.xib in Resources */,
 				978506D01C8FEF960060E136 /* STArticleVIewController.xib in Resources */,
-				9769EA6E1C7C4638007B7BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,14 +985,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9769EA6C1C7C4638007B7BBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9769EA6D1C7C4638007B7BBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9769EA711C7C4638007B7BBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
