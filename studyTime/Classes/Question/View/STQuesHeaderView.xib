@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="STQuesHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book" translatesAutoresizingMaskIntoConstraints="NO" id="bAE-bu-x9J">
+                    <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Od-N4-DHm">
+                    <rect key="frame" x="216" y="80" width="1" height="40"/>
+                    <color key="backgroundColor" white="0.75" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Hor-yP-czr"/>
+                        <constraint firstAttribute="width" constant="1" id="enN-RP-tHw"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leE-Xj-Ree">
+                    <rect key="frame" x="114" y="80" width="10.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本月已答" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2C2-h7-lBY">
+                    <rect key="frame" x="86" y="104" width="68" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pno-Af-YwW">
+                    <rect key="frame" x="309" y="80" width="23.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本月正确率" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDH-ER-Uzv">
+                    <rect key="frame" x="278" y="104" width="85" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zDH-ER-Uzv" firstAttribute="centerX" secondItem="Pno-Af-YwW" secondAttribute="centerX" id="09b-ei-5Vy"/>
+                <constraint firstAttribute="trailing" secondItem="bAE-bu-x9J" secondAttribute="trailing" id="5yh-NN-0nw"/>
+                <constraint firstItem="7Od-N4-DHm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9qp-Zr-Mlw"/>
+                <constraint firstAttribute="bottom" secondItem="bAE-bu-x9J" secondAttribute="bottom" id="JPj-cE-fm2"/>
+                <constraint firstItem="7Od-N4-DHm" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MLo-is-yEd"/>
+                <constraint firstItem="zDH-ER-Uzv" firstAttribute="baseline" secondItem="2C2-h7-lBY" secondAttribute="baseline" id="NKa-FI-2YU"/>
+                <constraint firstItem="bAE-bu-x9J" firstAttribute="leading" secondItem="leE-Xj-Ree" secondAttribute="trailing" constant="-125" id="S0T-bJ-BKa"/>
+                <constraint firstItem="2C2-h7-lBY" firstAttribute="baseline" secondItem="7Od-N4-DHm" secondAttribute="baseline" id="YKw-TZ-eoz"/>
+                <constraint firstItem="2C2-h7-lBY" firstAttribute="centerX" secondItem="leE-Xj-Ree" secondAttribute="centerX" id="gUd-gG-Z5c"/>
+                <constraint firstItem="bAE-bu-x9J" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="j7f-lv-GtV"/>
+                <constraint firstItem="Pno-Af-YwW" firstAttribute="top" secondItem="7Od-N4-DHm" secondAttribute="top" id="lGu-w6-SSu"/>
+                <constraint firstItem="Pno-Af-YwW" firstAttribute="leading" secondItem="bAE-bu-x9J" secondAttribute="trailing" constant="-125" id="lWA-hx-O3q"/>
+                <constraint firstItem="bAE-bu-x9J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vzN-wP-m7F"/>
+                <constraint firstItem="leE-Xj-Ree" firstAttribute="top" secondItem="7Od-N4-DHm" secondAttribute="top" id="xYK-Eu-dUA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="184" y="455.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="book" width="320" height="100"/>
+    </resources>
+</document>

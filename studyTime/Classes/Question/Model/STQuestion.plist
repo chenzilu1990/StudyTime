@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>icon</key>
+				<string>vector</string>
+				<key>title</key>
+				<string>开始答题</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>icon</key>
+				<string>text</string>
+				<key>title</key>
+				<string>世界排名</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>pencil</string>
+				<key>title</key>
+				<string>已答列表</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>page</string>
+				<key>title</key>
+				<string>错题复习</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string>lishi</string>
+				<key>title</key>
+				<string>历史成绩</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

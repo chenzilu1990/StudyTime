@@ -1,0 +1,21 @@
+//
+//  StudyTime.pch
+//  studyTime
+//
+//  Created by chenzilu on 16/2/23.
+//  Copyright © 2016年 chenzilu. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "STGlobalConst.h"
+#import "UIColor+SBColor.h"
+#import "UIView+SBView.h"
+#import "UIBarButtonItem+Item.h"
+#import "UINib+STNib.h"
+#import <AFNetworking.h>
+#define STScreenBounds [UIScreen mainScreen].bounds
+#define STScreenW [UIScreen mainScreen].bounds.size.width
+#define STScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* StudyTime_pch */

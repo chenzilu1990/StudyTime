@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STArticleVIewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="SeN-Ti-LWZ"/>
+                <outlet property="webV" destination="7ss-cf-Mwq" id="dNG-H5-0B9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ss-cf-Mwq">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mrc-T5-dTq">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="qQ0-EH-n3p"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem image="arrow" id="fx6-Ea-qc9"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="5OL-6X-Y3N"/>
+                        <barButtonItem image="star" id="WHJ-7g-NDj"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="hKc-Na-5am"/>
+                        <barButtonItem image="share" id="Icx-fv-RKB"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="D6v-7J-Svj"/>
+                        <barButtonItem image="fontSize" id="NCG-Om-3mP"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bHl-jJ-Eo6"/>
+                        <barButtonItem enabled="NO" title="Item" image="comment" id="D1l-wX-Y81"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7ss-cf-Mwq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="A0c-kY-Ra4"/>
+                <constraint firstAttribute="trailing" secondItem="mrc-T5-dTq" secondAttribute="trailing" id="AsX-js-0HE"/>
+                <constraint firstItem="7ss-cf-Mwq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JTd-1X-cLF"/>
+                <constraint firstAttribute="bottom" secondItem="mrc-T5-dTq" secondAttribute="bottom" id="NuU-74-PMU"/>
+                <constraint firstAttribute="trailing" secondItem="7ss-cf-Mwq" secondAttribute="trailing" id="QEk-uc-cBh"/>
+                <constraint firstAttribute="bottom" secondItem="7ss-cf-Mwq" secondAttribute="bottom" id="SiW-Vg-rU0"/>
+                <constraint firstItem="mrc-T5-dTq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ihm-1Q-RAs"/>
+            </constraints>
+            <point key="canvasLocation" x="279" y="-147"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow" width="37" height="37"/>
+        <image name="comment" width="37" height="37"/>
+        <image name="fontSize" width="37" height="37"/>
+        <image name="share" width="37" height="37"/>
+        <image name="star" width="37" height="37"/>
+    </resources>
+</document>
